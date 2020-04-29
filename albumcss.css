@@ -1,0 +1,236 @@
+
+  .full{
+    display : flex; 
+    
+  }
+  
+  .now{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: oblique;
+    border-color:#36591D;
+    border-left: solid;
+    padding-left:20px;
+  }
+  
+  .fixed{
+    background-color:#C5D99A;
+    display : flex;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    width:290px;
+    padding-left: 20px;
+  }
+  
+  
+  .bar{
+    text-align:left;
+    padding-top: 30px;
+    margin-top : 50px;
+    margin-left:20px;
+    margin-right:20px;
+    font-size:23px;
+  }  
+  
+  .second{
+    color:#795548;
+    display:grid;
+    grid-template-columns: repeat(1, 1150px);
+    margin-top : 50px;
+    text-align:center;
+    justify-items: center;
+    WIDTH:1100PX;
+    margin-left:50px;
+    margin-bottom:50px;
+    margin-right:200px;
+  }
+  
+
+  .top{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    display:grid;
+    text-align:center;
+    justify-items: center;
+  }
+
+  .line{
+    height:50px;
+    margin:0px auto;
+    padding-bottom:50px;
+  }
+  
+  .albums{
+    display:grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 500px 500px 500px 500px;
+    grid-gap:15px;
+    justify-items: center;
+    margin-left:20px;
+    margin-right:20px;
+    
+  }
+
+
+  
+  .albums img {
+    object-fit: cover;
+    width:282px;
+    transition: .3s;
+    opacity:.7;
+  }
+  
+  .albums img:hover{
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    opacity: 100;
+  }
+  
+  .name{
+    font-family: 'Inconsolata', monospace;
+    font-size:25px;
+    margin-bottom:35px;
+    margin-top:25px;
+   
+    
+  }
+  
+  .intro{
+    font-family: 'Inconsolata', monospace;
+    font-size:25px;
+    margin-bottom:50px;
+
+
+  }
+
+  .year{
+    font-family: 'Hepta Slab', serif;
+    font-size:30px;
+    color : #573E36;
+    font-weight: bold;
+    font-style: oblique;
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+
+  .top{
+    color:black;
+  }
+
+  @media (max-width:800px){
+    
+  .full{
+    display : flex; 
+    
+  }
+  
+  .now{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: oblique;
+    border-color:#36591D;
+    border-left: solid;
+    padding-left:20px;
+  }
+  
+  .fixed{
+    background-color:#C5D99A;
+    display : flex;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    width:290px;
+    padding-left: 20px;
+  }
+  
+  
+  .bar{
+    text-align:left;
+    padding-top: 30px;
+    margin-top : 50px;
+    margin-left:20px;
+    margin-right:20px;
+    font-size:23px;
+  }  
+  
+  .second{
+    color:#795548;
+    display:grid;
+    grid-template-columns: repeat(1, 1150px);
+    margin-top : 50px;
+    text-align:center;
+    justify-items: center;
+    WIDTH:1100PX;
+    margin-left:50px;
+    margin-bottom:50px;
+    margin-right:200px;
+  }
+  
+
+  .top{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    display:grid;
+    text-align:center;
+    justify-items: center;
+    color:black;
+  }
+
+  .line{
+    height:50px;
+    margin:0px auto;
+    padding-bottom:50px;
+  }
+  
+  .albums{
+    display:grid;
+    grid-template-columns: 450px;
+    grid-template-rows: repeat(8,500px);
+    grid-gap:15px;
+    justify-items: center;
+    margin-left:20px;
+    margin-right:20px;
+    
+  }
+
+
+  
+  .albums img {
+    object-fit: cover;
+    width:282px;
+    transition: .3s;
+    opacity:.7;
+  }
+  
+  .albums img:hover{
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    opacity: 100;
+  }
+  
+  .name{
+    font-family: 'Inconsolata', monospace;
+    font-size:25px;
+    margin-bottom:35px;
+    margin-top:25px;
+   
+    
+  }
+  
+  .intro{
+    font-family: 'Inconsolata', monospace;
+    font-size:25px;
+    margin-bottom:50px;
+    color:black;
+  }
+
+  .year{
+    font-family: 'Hepta Slab', serif;
+    font-size:30px;
+    color : #573E36;
+    font-weight: bold;
+    font-style: oblique;
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+
+  }

@@ -1,0 +1,148 @@
+
+  .full{
+    display : flex; 
+  }
+  
+  .now{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    border-left: solid;
+    border-color:#36591D;
+    padding-left:20px;
+  }
+  
+  .fixed{
+    background-color:#C5D99A;
+    display : flex;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    width:290px;
+    padding-left: 20px;
+  }
+  
+  
+  .bar{
+    text-align:left;
+    padding-top: 30px;
+    margin-top : 50px;
+    margin-left:20px;
+    margin-right:20px;
+    font-size:23px;
+  }
+  
+
+.line{
+  display: grid;
+  margin-top: 50px;
+  height:50px;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+
+
+.indexphoto{
+  width : 400px;
+}
+
+.profile1{
+  color:#795548 ;
+  font-family: 'Inconsolata', monospace;
+  font-size:25px;
+  margin-left:70px;
+}
+
+.profile{
+  display:flex;
+  justify-content: center;
+  margin-bottom:50px;
+}
+
+.second{
+  display:grid;
+  grid-template-columns: repeat(1, 1100px);
+  margin-top : 50px;
+  text-align:center;
+  justify-items: center;
+  WIDTH:1100PX;
+  margin-left:50px;
+  margin-bottom:50px;
+  margin-right:200px;
+}
+
+.top{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  display:grid;
+  text-align:center;
+  justify-items: center;
+}
+/*
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  1fr 3fr 1fr;
+
+    
+    
+}
+.header{
+    grid-area: head;
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.card:nth-child(1) {
+    grid-area: nav;
+    background-color : lightgreen;
+    grid-column-start: 0;
+    grid-column-end: 1;
+  }
+
+  .card:nth-child(2) {
+    grid-area: article;
+    background-color:white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .card:nth-child(3) {
+    grid-area: aside;
+    background-color : lightgreen;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  .footer{
+    grid-area: footer;
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+@media (min-width: 576px) {
+    .wrapper {
+    grid-template-columns: 2fr
+    4fr; grid-column-gap: 2em;
+    grid-row-gap: 20px;
+    }
+    .mainheader {
+    grid-column: 1 / 3;
+    grid-row: 1 ;
+    }
+    .panel {
+    grid-column: 1 ;
+    grid-row: 2 ;
+    }
+    .content {
+    grid-column: 2 ;
+    grid-row: 2 ;
+    }
+    .mainfooter {
+    grid-column: 1 / 3;
+    grid-row: 3 ;
+    }
+    }
+    */
