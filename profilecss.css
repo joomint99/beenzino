@@ -2,7 +2,9 @@
   .full{
     display : flex; 
   }
-  
+  .indexphoto{
+  width : 400px;
+}
   .now{
     font-size: 30px;
     font-weight: bold;
